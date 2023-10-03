@@ -1,0 +1,49 @@
+/*** JavaScript demonstration ***/
+#square {
+  width: 100%; /* Porcentagem da largura da tela */
+  height: 30em;
+  border: 2px inset gray;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  /* Outros estilos para o square */
+  }
+
+/* Estilos para telas menores (por exemplo, dispositivos móveis) - responsividade*/
+@media (max-width: 768px) {
+  #square {
+      width: 90%; /* Aumenta a largura para 90% em telas menores */
+      /* Outros estilos específicos para telas menores */
+  }
+}
+
+
+  /* Modo escuro */
+.dark-mode #square {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+    padding: 0.5em 2em;
+}
+
+/*Body*/
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/268/938/original/gray-gradient-minimal-wavy-design-vector.jpg'); /* Substitua 'background.jpg' pelo URL da sua imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh; /* Para ocupar toda a altura da tela */
+  
+}
+  
